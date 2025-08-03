@@ -4,7 +4,7 @@ public class IDGenerator {
 	
 	private Random r = new Random();
 	private long memberID;
-	private final File idsFile = new File("C:\\Users\\Gigabyte\\eclipse-workspace\\Library Management System\\src\\Members_ID.txt");
+	private final File idsFile = new File("src\\Members_ID.txt");
 	
 	
 	public long getMemberID() {

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MemberValidator 
 {
 	private String lineName;
-	private final File membersFile = new File("C:\\Users\\Gigabyte\\eclipse-workspace\\Library Management System\\src\\Members.txt");
+	private final File membersFile = new File("src\\Members.txt");
 
 
 	public String getLineName() 

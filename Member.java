@@ -4,7 +4,7 @@ public class Member {
 	private String mobileNumber;
 	private String name;
 	private long memberID;
-	private final File membersFile = new File("C:\\Users\\Gigabyte\\eclipse-workspace\\Library Management System\\src\\Members.txt");
+	private final File membersFile = new File("src\\Members.txt");
 	private IDGenerator generator = new IDGenerator();
 	
 	Member(){}
